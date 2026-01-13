@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONTO PRF | Sistema de Comando</title>
+    <style>
+        /* Remove margens e barras de rolagem da página principal */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #0f172a; /* Cor de fundo do seu tema para não piscar branco */
+        }
+        /* Faz o iframe ocupar 100% da tela */
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <link rel="icon" href="https://www.policiarodoviaria.gov.br/favicon.ico">
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbx56eVrWt2RHVIpl_d7oqnHcWutCfAuhTNbwzwm2Gij4YcLsmyvmrZ32vDNOGpeGfCW/exec">
+        Seu navegador não suporta iframes.
+    </iframe>
+</body>
+</html>
